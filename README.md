@@ -1,1 +1,1 @@
-# ux-filemanager
+# Provider for php geocoder Symfony
