@@ -1,0 +1,40 @@
+{
+  "name": "akyoscommunication/ban-fr-provider",
+  "type": "library",
+  "description": "Symfony UX Geocoder for France for Bazinga",
+  "keywords": [
+    "PHP",
+    "php-geocoder"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lilian Carneau",
+      "email": "lilian.carneau@gmail.com"
+    },
+    {
+      "name": "Symfony Community",
+      "homepage": "https://symfony.com/contributors"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Akyos\\BANFrProvider\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.3",
+    "willdurand/geocoder-bundle": "^5.0"
+  },
+  "require-dev": {
+    "psr/log": "^1|^2|^3",
+    "symfony/dependency-injection": "^6.4|^7.0"
+  },
+  "extra": {
+    "thanks": {
+      "name": "symfony/ux",
+      "url": "https://github.com/symfony/ux"
+    }
+  },
+  "minimum-stability": "stable"
+}

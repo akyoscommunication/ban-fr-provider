@@ -1,0 +1,18 @@
+services:
+    Symfony\Component\DependencyInjection\ContainerInterface: '@service_container'
+
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    geocoder.provider.geopf_geocoder:
+        class: Akyos\BANFrProvider\Provider\GeoPFProvider
+        public: true
+        tags:
+            - { name: bazinga_geocoder.provider }
+
+    geocoder.provider.BANFr_geocoder:
+        class: Akyos\BANFrProvider\Provider\GeoBANFrProvider
+        public: true
+        tags:
+            - { name: bazinga_geocoder.provider }
