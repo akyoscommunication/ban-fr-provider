@@ -2,7 +2,7 @@
 
 namespace Akyos\BANFrProvider\Factory;
 
-use App\Geocoder\Provider\GeoPFProvider;
+use Akyos\BANFrProvider\Provider\GeoPFProvider;
 use Bazinga\GeocoderBundle\ProviderFactory\AbstractFactory;
 use Geocoder\Provider\Provider;
 use Psr\Http\Client\ClientInterface;
