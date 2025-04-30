@@ -24,7 +24,8 @@
   },
   "require": {
     "php": ">=8.3",
-    "willdurand/geocoder-bundle": "^5.0"
+    "willdurand/geocoder-bundle": "^5.0",
+    "geocoder-php/common-http": "^4.0"
   },
   "require-dev": {
     "psr/log": "^1|^2|^3",
